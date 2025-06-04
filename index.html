@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial I</title>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Script -->
+    <script defer src="js/main.js"></script>
+</head>
+
+<body>
+
+    <!-- ====================================
+        ENCABEZADO (Header)
+    ===================================== -->
+    <header class="header">
+        <a href="index.html">
+            <div class="logo">Frutería</div>
+        </a>
+
+        <nav id="navegacion"></nav>
+
+        <div class="nombreAlumno"></div>
+
+        <input type="text" placeholder="Buscar..." class="barra-busqueda" id="barra-busqueda">
+
+        <div class="carrito">
+            <span>Carrito: <span id="contador-carrito">0</span> productos</span>
+        </div>
+    </header>
+
+
+    <!-- ====================================
+        CONTENIDO PRINCIPAL
+    ===================================== -->
+    <main>
+
+        <!-- ==========================
+            SECCIÓN DE PRODUCTOS
+        =========================== -->
+        <section class="seccion-productos">
+            <h2>Nuestras frutas</h2>
+
+            <!-- Botones de ordenamiento -->
+            <div class="botones-ordenamiento">
+                <button id="ordenar-nombre">Ordenar por Nombre</button>
+                <button id="ordenar-precio">Ordenar por Precio</button>
+            </div>
+
+            <!-- Contenedor de productos -->
+            <div class="contenedor-productos" id="contenedor-productos">
+                <div class="card-producto">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p>$</p>
+                    <button>Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ==========================
+            SECCIÓN DEL CARRITO
+        =========================== -->
+        <section class="seccion-carrito">
+            <h2>Carrito</h2>
+
+            <!-- Botón para vaciar -->
+            <button id="vaciar-carrito">Vaciar Carrito</button>
+
+            <!-- Items del carrito -->
+            <div id="items-carrito">
+                <ul id="item-carrito"></ul>
+                <p id="no-elementos-carrito">No hay elementos en el carrito.</p>
+            </div>
+
+            <!-- Total del carrito -->
+            <div class="total-carrito">
+                <p>Total: <span id="precio-total">$0.00</span></p>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
