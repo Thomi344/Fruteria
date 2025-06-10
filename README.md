@@ -8,6 +8,15 @@ Este proyecto en JavaScript simula una tienda de frutas interactiva que permite 
 - CSS3
 - JavaScript (ES6)
 - LocalStorage
+---
+## 🌍 Acceso a la Página
+
+El proyecto está disponible en línea a través de **GitHub Pages**.  
+Podés verlo y probarlo en el siguiente enlace:
+
+🔗 [Frutería Interactiva](https://thomi344.github.io/Fruteria/)
+
+---
 
 ## 👀 Vistazo General
 
@@ -48,3 +57,4 @@ Este proyecto en JavaScript simula una tienda de frutas interactiva que permite 
 > 📷 **Ejemplo**: ![Funcionamiento del carrito](img/img_muestra/carrito_lleno.png)
 
 ---
+
