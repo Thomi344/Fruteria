@@ -12,7 +12,7 @@ Este proyecto en JavaScript simula una tienda de frutas interactiva que permite 
 ## 👀 Vistazo General
 
 
-> 📷 **Ejemplo**: ![Vistazo general](img\img_muestra\muestra.png)
+> 📷 **Ejemplo**: ![Vistazo general](img/img_muestra/muestra.png)
 
 ---
 
@@ -30,7 +30,7 @@ Este proyecto en JavaScript simula una tienda de frutas interactiva que permite 
 - Información del alumno se carga dinámicamente.
 
 
-> 📷 **Ejemplo**: ![Botones y funcionalidades](img\img_muestra\botones.png)
+> 📷 **Ejemplo**: ![Botones y funcionalidades](img/img_muestra/botones.png)
 
 ---
 
@@ -45,6 +45,6 @@ Este proyecto en JavaScript simula una tienda de frutas interactiva que permite 
 5. Al recargar la página, los productos persisten gracias a `localStorage`.
 
 
-> 📷 **Ejemplo**: ![Funcionamiento del carrito](img\img_muestra\carrito_lleno.png)
+> 📷 **Ejemplo**: ![Funcionamiento del carrito](img/img_muestra/carrito_lleno.png)
 
 ---
